@@ -1,7 +1,6 @@
 inherit_from: .rubocop_todo.yml
 AllCops:
-  UseCache: false
-  Exclude:
-    - 'db/schema.rb'
-    - 'vendor/**/*'
-    - Gemfile.lock
+  UseCache: true
+  TargetRailsVersion: 4.2
+Rails:
+  Enabled: true

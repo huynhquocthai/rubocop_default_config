@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'rubocop_default_config'
-  s.version     = '0.1.5'
-  s.date        = '2017-10-31'
+  s.version     = '0.1.6'
+  s.date        = '2017-11-01'
   s.summary     = 'RuboCop config generator'
   s.description = 'A simple gem to generate default config for RuboCop'
   s.authors     = ['Thai Huynh']

@@ -5,11 +5,11 @@ class RubocopConfig
   # Run *rubocop_config* to generate .rubocop.yml file.
 
   def generate_to_do_list
+    generate_default_config
     puts "Generating rubocop todo config ..."
     # Comment because bugs missing offenses file Exclude
     # system('rubocop --auto-gen-config --exclude-limit 9999')
     system('rubocop --auto-gen-config')
-    generate_default_config
   end
 
   def generate_default_config
